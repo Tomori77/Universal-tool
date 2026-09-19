@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  默认 package.xml 模板 —— 新建 Mod 时复制本文件，替换以下占位：
+  <title>        Mod 显示名（与文件夹名一致）
+  <id>           Charlotte.模组名（作者前缀 + 模块名）
+  <author>       作者名
+  <tags>         标签（Item/Skill/Crafting/QoL...）
+  <description>  描述（支持 [h1]/[list]/[url] BBcode）
+-->
+<Meta>
+  <title>Mod 名</title>
+  <id>Charlotte.Mod名</id>
+  <author>Charlotte</author>
+  <loadPriority>20</loadPriority>
+  <builtin>false</builtin>
+  <tags>Item</tags>
+  <version>0.23.90</version>
+  <description>Mod 描述。</description>
+</Meta>

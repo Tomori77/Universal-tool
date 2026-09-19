@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+  <title>Universal tool-万能工具</title>
+  <id>Charlotte.UniversalTool</id>
+  <author>Charlotte</author>
+  <loadPriority>20</loadPriority>
+  <version>0.23.90</version>
+  <tags>Item,QoL,Balance,Utility</tags>
+  <description>Universal tool。</description>
+  <builtin>false</builtin>
+</Meta>

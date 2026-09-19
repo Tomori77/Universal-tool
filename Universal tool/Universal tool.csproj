@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>UniversalTool</AssemblyName>
+    <RootNamespace>UniversalTool</RootNamespace>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Elin 游戏程序集 -->
+    <Reference Include="Elin">
+      <HintPath>D:\Steam\steamapps\common\Elin\Elin_Data\Managed\Elin.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Plugins.BaseCore">
+      <HintPath>D:\Steam\steamapps\common\Elin\Elin_Data\Managed\Plugins.BaseCore.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Plugins.Modding">
+      <HintPath>D:\Steam\steamapps\common\Elin\Elin_Data\Managed\Plugins.Modding.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Plugins.UI">
+      <HintPath>D:\Steam\steamapps\common\Elin\Elin_Data\Managed\Plugins.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Plugins.Scripting">
+      <HintPath>D:\Steam\steamapps\common\Elin\Elin_Data\Managed\Plugins.Scripting.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Plugins.Sound">
+      <HintPath>D:\Steam\steamapps\common\Elin\Elin_Data\Managed\Plugins.Sound.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Plugins.ActorSystem">
+      <HintPath>D:\Steam\steamapps\common\Elin\Elin_Data\Managed\Plugins.ActorSystem.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- Unity 程序集 -->
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Steam\steamapps\common\Elin\Elin_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\Steam\steamapps\common\Elin\Elin_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:\Steam\steamapps\common\Elin\Elin_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- BepInEx 程序集 -->
+    <Reference Include="BepInEx.Core">
+      <HintPath>D:\Steam\steamapps\common\Elin\BepInEx\core\BepInEx.Core.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="BepInEx.Unity">
+      <HintPath>D:\Steam\steamapps\common\Elin\BepInEx\core\BepInEx.Unity.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>D:\Steam\steamapps\common\Elin\BepInEx\core\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- Mod Options（第三方设置菜单库）：配置 UI 依赖 -->
+    <Reference Include="ModOptions">
+      <HintPath>..\docs\refs\ModOptions.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
