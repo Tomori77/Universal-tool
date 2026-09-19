@@ -108,6 +108,7 @@ Universal-tool\
 
 ## 许可与致谢
 
-- 本仓库目前未附加开源许可证；如需复用代码或资源，请先联系作者。
+- 本项目采用 [GNU AGPL-3.0](LICENSE) 许可证，仅覆盖作者原创的代码、数据表与文档。
+- 许可证不覆盖游戏本体资源、BepInEx 及第三方库（如 `ModOptions.dll`）；这些内容版权归各自作者所有。
 - 参考模组：ElinEnchantingTable、InstantFishing。
 - 官方 Modding 文档：[Elin Modding Wiki](https://elin-modding-resources.github.io/Elin.Docs/)。
